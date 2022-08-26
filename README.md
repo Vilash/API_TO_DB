@@ -23,4 +23,12 @@ Pre-requisites
   host=alpha-vantage.p.rapidapi.com
   base_url=https://alpha-vantage.p.rapidapi.com/query
   ```
+* Since we are using SQLITE3 DB a lightweight, serverless, no fuss DB we don't need to install any DB Client. Python comes with one out-of-the-box.
+* Create a new virtual environment, activate it and install the requirements:
+  ```
+  python3 -m venv /path/to/new/virtual/environment
+  source /newvirtualenvironment/bin/activate
+  pip install -r requirements.txt install the required dependencies from `requirements.txt`
+  ```
+  
 
