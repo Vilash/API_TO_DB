@@ -50,5 +50,5 @@ Pre-requisites
         "datatype":"json"
     }
  ```
-  
+* Finally execute the `main.py` file
 
