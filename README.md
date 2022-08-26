@@ -41,7 +41,7 @@ Pre-requisites
   ```
   from the config.ini file, the code reads it anyway, just make sure to update the api key as stated earlier.
  
-* There are four query parameters we are sending with api call however, __symbol__ parameter is most important as we will be interacting/changing it to data for different tickers
+* There are four query parameters we are sending with api call however, __symbol__ parameter is most important as we will be interacting/changing it to fetch data for different tickers
  ```
  querystring = {
         "function":"TIME_SERIES_DAILY",
