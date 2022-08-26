@@ -24,11 +24,16 @@ Pre-requisites
   base_url=https://alpha-vantage.p.rapidapi.com/query
   ```
 * Since we are using SQLITE3 DB a lightweight, serverless, no fuss DB we don't need to install any DB Client. Python comes with one out-of-the-box.
-* Create a new virtual environment, activate it and install the requirements:
+* Create a new virtual environment, activate it and install the requirements from `requirements.txt`:
   ```
   python3 -m venv /path/to/new/virtual/environment
   source /newvirtualenvironment/bin/activate
   pip install -r requirements.txt install the required dependencies from `requirements.txt`
+  ```
+* The only API headers data to be provided are as follows:
+  ```headers = {
+	"X-RapidAPI-Key": api_key,
+	"X-RapidAPI-Host": api_host
   ```
   
 
