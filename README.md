@@ -19,8 +19,8 @@ Pre-requisites
 * Create a `config.ini` file:
   ```
   [api]
-key=7e2293a2c6msh6560fea3ee95896p188930jsn3b6810001b47
-host=alpha-vantage.p.rapidapi.com
-base_url=https://alpha-vantage.p.rapidapi.com/query
+  key=your-api-key-from-rapid-api
+  host=alpha-vantage.p.rapidapi.com
+  base_url=https://alpha-vantage.p.rapidapi.com/query
   ```
 
